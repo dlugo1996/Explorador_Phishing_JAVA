@@ -82,10 +82,10 @@ public class ExploradorPhishing {
                 System.out.println("Palabra clave: " + keyword + ", Ocurrencias: " + occurrences);
             }
 
-            
-            
+            // Mostrar el resultado total de puntos acumulados
+            System.out.println("Total de puntos acumulados: " + totalPoints);
         } catch (IOException e) {
-      
+            e.printStackTrace();
         }
     }
 
