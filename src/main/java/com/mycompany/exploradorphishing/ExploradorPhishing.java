@@ -76,9 +76,13 @@ public class ExploradorPhishing {
                 }
             }
 
-           
+            // Mostrar la información de cada palabra clave y sus ocurrencias
+            for (String keyword : keywordOccurrences.keySet()) {
+                int occurrences = keywordOccurrences.get(keyword);
+                System.out.println("Palabra clave: " + keyword + ", Ocurrencias: " + occurrences);
+            }
 
-
+            
             
         } catch (IOException e) {
       
