@@ -76,12 +76,26 @@ public class ExploradorPhishing {
                 }
             }
 
-          
+           
 
-        
+
+            
         } catch (IOException e) {
-         
+      
         }
     }
 
-    
+    // Método auxiliar para contar las apariciones de un término clave en una línea
+    private static int countOccurrences(String line, String keyword) {
+        int count = 0;
+        int index = 0;
+        while (index != -1) {
+            index = line.indexOf(keyword, index);
+            if (index != -1) {
+                count++;
+                index += keyword.length();
+            }
+        }
+        return count;
+    }
+}
