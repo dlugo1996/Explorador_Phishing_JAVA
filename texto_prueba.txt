@@ -1,0 +1,3 @@
+Esto es un texto de prueba que contiene algunas palabras clave como PayPal, Banco, Correo electrónico y Urgente. También tiene una aparición de la palabra clave Correo electrónico repetida. Además, cuenta con algunas palabras adicionales para comprobar el conteo correcto.
+La palabra Spam puede aparecer en este texto, pero no se debe contar.
+El término Banca en línea también es relevante para este programa.
